@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.menu {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-main-bg-container {
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.nav-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:767px) {
+    .page-body {
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png');
+        height: 90vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-grow: 1;
+    }
+}
+
+.menu-item {
+    text-decoration: none;
+    padding: 20px;
+    color: #12022f;
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+
+.button {
+    margin: 10px;
+    background-color: #ffdda9;
+    color: #12022f;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+
+hr {
+    color: #e7e5ea;
+    height: 1px;
+}
+
+.page-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.display-none {
+    display: none;
+}
+
+.close-icon {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width :767px) {
+    .display-none-medium {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .medium-icon {
+        display: none;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .main-nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page-body {
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png');
+        height: 85vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-grow: 1;
+    }
+
+
+}
